@@ -23,16 +23,27 @@ img {
   color: white;
 }
 
-.overlay-text {
+.dark-bg {
   position: absolute;
-  top: 35%;
-  left: 45%;
+  top: 30%;
+  left: 40%;
+  font-family: Norse-Bold;
+  font-size: 80px;
+}
+
+.dark-bg span {
+  margin-top: 10px;
+}
+
+.overlay-text {
   display: flex;
   align-items: center;
+  margin-top: 10px;
+  background: rgba(0, 0, 0, 0.5);
 }
 
 .overlay-text img {
-  height: 100px;
+  height: 110px;
 }
 
 .right-section {
@@ -52,6 +63,10 @@ img {
   border-bottom: 1px solid lightgray;
   box-shadow: 2px 2px 2px lightgray;
   background-color: white;
+}
+
+.content-form h5 {
+  padding: 10px 0px;
 }
 
 .content-three {
